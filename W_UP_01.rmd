@@ -46,9 +46,15 @@ Position is categorical variable. Push-ups is a numerical variable. I will do an
 boxplot(pushups~position,data=mydata)
 ```
 
-The average push-ups for the position appears to be different. The skill position appears to do more push-ups based off of the y-axis. 
+The average push-ups for the position appears to be different. The skill position appears to do more push-ups based off of the y-axis.
+
 ### Numerical Descriptive Results
 
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+I see the line position does fewer pushups than the skill position. It appears that the median for the skill position is much higher. It is higher by 33. The maximum amount of push-ups a line position player could do was 34 while the skill position player was 108. The data shows the skill position player can do more push-ups than the line position player.  
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
