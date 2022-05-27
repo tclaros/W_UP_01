@@ -61,8 +61,12 @@ I see the line position does fewer pushups than the skill position. It appears t
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
-
+```{r}
+t.test(pushups~position,data=mydata)
+```
+Our p-value is 0.000009421. The p-value is so small we reject the null hypothesis. Our df value is 27.079. Our t value is -5.4341. Our alternative hypothesis is shown. it states "true differences in means between group LINE and group SKILL is not equal to 0. Our sample estimates are: mean in group LINE is 17.12500. If our null hypothesis is true, the p value is the probability of getting our results. LINE vs SKILL. It is vary rare. 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+The original question is: Is there a difference between the average number of push-ups of line vs skill players. Based off of our numerical descriptive results and our inferential results; we can see that the skill position can do more push-ups.  
