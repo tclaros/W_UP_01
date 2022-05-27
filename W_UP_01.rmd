@@ -69,4 +69,4 @@ Our p-value is 0.000009421. The p-value is so small we reject the null hypothesi
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-The original question is: Is there a difference between the average number of push-ups of line vs skill players. Based off of our numerical descriptive results and our inferential results; we can see that the skill position can do more push-ups.  
+The original question is: Is there a difference between the average number of push-ups of line vs skill players. Based off of our numerical descriptive results and our inferential results; we can see that the skill position can do more push-ups. We used a box plot and a table to figure out our values and percentages. The median and average were much higher for the skill position. 
